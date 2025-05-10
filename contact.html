@@ -19,6 +19,7 @@
       href="images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comunity Science Museum</title>
   </head>
@@ -48,61 +49,42 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <!-- Hero section -->
-      <section class="hero">
-        <h1>
-          Welcome to the Community Science Museum Where
-          <span class="clr-1">curiosity</span> sparks discovery, and
-          <span class="clr-2">science</span>
-          becomes an <span class="clr-3">adventure!</span>
-        </h1>
-      </section>
-      <!-- Hero end -->
-      <!-- Activities  -->
-      <div class="activity-heading">
-        <h2>Hands-On Science Experiments</h2>
-        <p>
-          Explore science with fun, hands-on experiments! Conduct chemical
-          reactions, build models, and dive into immersive VR tours. Perfect for
-          young scientists eager to discover!
-        </p>
-      </div>
-      <section class="activities">
-        <div class="activity activity-1">
-          <a href="event/science-lab.html" class="activity-ribbon"
-            >Science lab</a
-          >
-        </div>
-        <div class="activity activity-2">
-          <a href="#" class="activity-ribbon">Micro organisms</a>
-        </div>
-        <div class="activity activity-3">
-          <a href="event/viritual-tours.html" class="activity-ribbon">
-            Viritual tours</a
-          >
-        </div>
-      </section>
-      <!-- Activities end -->
-      <!-- Featured event start -->
-      <div class="activity-heading">
-        <h2>Join us for the next featured event at the museum</h2>
-      </div>
-      <section class="featured">
-        <div class="featured-text">
-          <h2>Featured Upcoming Event: Space day</h2>
+    <h1 class="text-center">Get in <span>touch</span></h1>
+    <div class="container">
+      <div class="contact-box">
+        <input
+          type="text"
+          class="field"
+          id="Name"
+          aria-label="Your name"
+          placeholder="Your Name"
+        />
+        <input
+          type="text"
+          class="field"
+          id="email"
+          aria-label="Your email"
+          placeholder="Your Email"
+        />
 
-          <h4>Date: Saturday, May 31, 2025</h4>
-          <h4>Time: 10.00 am - 5.00 pm</h4>
-          <h4>Location: cumunity Science Museum - Hall B</h4>
-          <h4>Entrance: FREE</h4>
-          <a class="button" href="event/space-day.html">Read more</a>
-        </div>
-      </section>
-      <!-- Featured event end -->
-    </main>
+        <input
+          type="text"
+          class="field"
+          id="phone"
+          aria-label="Phone"
+          placeholder="Phone"
+        />
+        <textarea
+          placeholder="Message"
+          id="text"
+          aria-label="textarea"
+          class="field"
+        ></textarea>
 
-    <!-- Footer start -->
+        <a class="btn" href="message-sent.html">Send</a>
+      </div>
+    </div>
+
     <footer class="footer">
       <div class="footer-section">
         <h3>About Us</h3>
@@ -123,6 +105,5 @@
         <h4>Stay connected through our social media channels.</h4>
       </div>
     </footer>
-    <!-- Footer end -->
   </body>
 </html>

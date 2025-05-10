@@ -1,0 +1,126 @@
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.chemestry-chaos {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.806)),
+    url(/images/Chemistry-4.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.dino-world {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.806)),
+    url(/images/Dino-3.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 40%;
+}
+
+.rocket-lab {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.806)),
+    url(/images/rockets.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 40%;
+}
+.electricity-explorers {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.806)),
+    url(/images/electricity.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.viritual-tours {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.863)),
+    url(/images/vr.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.space-day {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.753)),
+    url(/images/astronaut-big.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.science-lab {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.753)),
+    url(/images/science-lab-big.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.event-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.event-info img {
+  max-width: 500px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 86px;
+  color: var(--white);
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 44px;
+  color: var(--bright-orange);
+  font-family: var(--font-primary);
+
+  margin-bottom: 40px;
+}
+h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: var(--bright-orange);
+}
+h4 {
+  font-size: 28px;
+  color: var(--white);
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-weight: 700;
+  color: var(--white);
+}
+ul {
+  margin: 20px 0;
+  font-size: 24px;
+  line-height: 1.2;
+
+  color: var(--white);
+}
+
+.event-details {
+  margin-top: 30px;
+}
+
+.next-event {
+  display: flex;
+  justify-content: flex-end;
+}
+li {
+  margin-bottom: 5px;
+}
+
+footer h3 {
+  color: var(--white);
+}

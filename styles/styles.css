@@ -1,0 +1,371 @@
+/* ========= Mobile-First Base Styles ========= */
+
+/* Reset & Box Sizing */
+
+:root {
+  /* fonts */
+  --ff-base: "poppins";
+  --ff-accent: "chilanka";
+  /* colors */
+  --clr-primary: #ffffff;
+  --clr-secondary: #ffa600;
+  --clr-hover: #ffa600;
+  --clr-background: #000000c2;
+  /* font-weights */
+  --fw-regular: 500;
+  --fw-bold: 600;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text-center {
+  text-align: center;
+}
+
+span {
+  color: var(--clr-secondary);
+}
+
+body {
+  font-family: var(--ff-base), sans-serif;
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 110, 133, 1) 100%
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--clr-primary);
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+/* Header Row using Flexbox */
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+/* Logo */
+.logo img {
+  max-width: 200px;
+}
+
+/* Hamburger Menu Icon */
+.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+/* Hide the toggle checkbox */
+.menu-toggle {
+  display: none;
+}
+
+/* Navigation Menu Container */
+.menu {
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+/* Navigation Menu (hidden by default via max-height) */
+.menu ul {
+  list-style-type: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  /* Flexbox for vertical stacking with extra gap and centered items */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers items horizontally */
+  gap: 12px;
+  padding: 0 20px 10px;
+}
+
+/* Menu Items: Links & Button */
+.menu ul li a,
+.menu ul li .cta {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  background: none;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px; /* Increased font size for mobile */
+  font-family: var(--ff-base);
+  font-weight: var(--ff-base);
+  color: var(--clr-primary);
+}
+
+/* Hover States */
+.menu ul li a:hover,
+.menu ul li .cta:hover {
+  background-color: var(--clr-hover);
+}
+
+/* Call-to-Action Button Styles */
+.menu ul li a.cta {
+  background-color: var(--clr-secondary);
+  border-radius: 5px;
+  padding: 12px 30px;
+}
+
+/* Expand menu when checkbox is checked */
+.menu-toggle:checked ~ .menu ul {
+  max-height: 500px; /* Adjust if you add more items */
+}
+
+/* Main-start */
+main {
+  padding: 10px;
+}
+/* Hero */
+.hero {
+  font-family: var(--ff-base);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.189)),
+    url(/images/exhibit.webp);
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.hero h1 {
+  font-size: 20px;
+  position: absolute;
+  top: 35px;
+  padding: 40px;
+  background-color: var(--clr-background);
+  color: var(--clr-primary);
+}
+/* Activities home page */
+.activity-heading {
+  padding: 20px;
+  font-family: var(--ff-accent);
+}
+.activity-heading h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.activities {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-bottom: 50px;
+  gap: 20px;
+}
+.activity {
+  min-height: 400px;
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 32px;
+  -webkit-box-shadow: 1px 6px 26px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 6px 26px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 26px -3px rgba(0, 0, 0, 0.75);
+  margin: 0;
+}
+.activity-1 {
+  background-image: url(/images/science-lab.webp);
+}
+.activity-2 {
+  background-image: url(/images/micro.webp);
+}
+.activity-3 {
+  background-image: url(/images/vr.webp);
+}
+.event-btn a {
+  display: inline-block;
+}
+
+.activity-ribbon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-background);
+  color: var(--clr-primary);
+  font-family: var(--ff-accent);
+  grid-row: 10 / 12;
+  margin: 0px 20px;
+  transition: 0.3s ease-in;
+  text-decoration: none;
+}
+/* Activity end */
+
+/* Featured event start */
+.featured {
+  background-image: url(/images/astronaut.webp);
+  min-height: 450px;
+  background-position: center;
+  color: var(--clr-primary);
+  font-family: var(--ff-base);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.featured-text {
+  background-color: var(--clr-background);
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+.featured-text h2 {
+  font-size: 28px;
+}
+.featured-text h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.button {
+  color: var(--clr-primary);
+  font-size: 19px;
+  text-decoration: none;
+  background-color: var(--clr-secondary);
+  padding: 10px 20px;
+  display: inline-block;
+}
+/* Featured event end */
+/* Footer start */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #33333300;
+  color: white;
+  padding: 20px;
+  font-family: var(--font-primary);
+}
+
+.footer-section {
+  flex: 1;
+  margin: 10px 20px;
+}
+
+.footer-section h3 {
+  border-bottom: 2px solid var(--clr-secondary);
+}
+
+.footer-section a {
+  text-decoration: none;
+  color: var(--clr-primary);
+}
+/* Footer end */
+
+/* ========= Larger Screens (Desktop) header and menu ========= */
+@media (min-width: 968px) {
+  /* Arrange header contents horizontally */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 40px 20px;
+  }
+
+  /* Hide hamburger icon */
+  .menu-icon {
+    display: none;
+  }
+
+  /* Ensure the menu is fully displayed */
+  .menu {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .menu ul {
+    max-height: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Remove extra vertical spacing on desktop; left-align text if desired */
+  .menu ul li a,
+  .menu ul li button.cta {
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 24px; /* Optionally a bit smaller font on desktop */
+    transition: 0.2s ease-in;
+  }
+
+  /* Optional hover effect for desktop */
+  .menu ul li a:hover,
+  .menu ul li button.cta:hover {
+    background-color: var(--clr-hover);
+  }
+  .hero {
+    min-height: 500px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    top: 180px;
+    left: 40px;
+    text-align: center;
+    max-width: 1800px;
+  }
+  .activity-heading {
+    text-align: center;
+  }
+  .activity-heading h2 {
+    font-size: 38px;
+  }
+
+  .activity-heading p {
+    font-size: 20px;
+  }
+  .activity-1 {
+    background-position: top;
+  }
+  .activity-2 {
+    background-position: top;
+  }
+  .activity-3 {
+    background-position: top;
+  }
+  footer {
+    flex-direction: row;
+  }
+  .featured {
+    min-height: 550px;
+    justify-content: flex-end;
+  }
+  .featured-text {
+    background-color: var(--clr-background);
+    text-align: center;
+    margin: 0 auto;
+    padding: 80px 200px;
+  }
+  .featured-text h2 {
+    font-size: 48px;
+  }
+  .featured-text h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .button {
+    font-size: 19px;
+    text-decoration: none;
+    background-color: var(--clr-secondary);
+    padding: 20px 40px;
+    display: inline-block;
+  }
+}

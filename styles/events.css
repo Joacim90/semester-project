@@ -1,0 +1,67 @@
+h1 {
+  font-size: 56px;
+  margin-bottom: 10px;
+  color: var(--white);
+}
+
+.headline {
+  max-width: 1400px;
+  margin-bottom: 50px;
+  color: var(--white);
+  margin: 0 auto;
+}
+.headline p {
+  font-size: 26px;
+  max-width: 1200px;
+  margin-bottom: 50px;
+}
+
+.events {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  margin-bottom: 50px;
+  gap: 20px;
+}
+.event {
+  min-height: 400px;
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 22px;
+  -webkit-box-shadow: 1px 6px 26px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 6px 26px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 6px 26px -3px rgba(0, 0, 0, 0.75);
+  margin: 0;
+}
+.event-1 {
+  background-image: url(/images/Chemistry.webp);
+}
+.event-2 {
+  background-image: url(/images/rockets.webp);
+}
+.event-3 {
+  background-image: url(/images/Dino.webp);
+}
+.event-4 {
+  background-image: url(/images/Electricity.webp);
+}
+.event-5 {
+  background-image: url(/images/vr.webp);
+}
+.event-6 {
+  background-image: url(/images/science-lab.webp);
+}
+.event-7 {
+  background-image: url(/images/micro.webp);
+}
+.event-8 {
+  background-image: url(/images/health.webp);
+}
+h2 {
+  text-align: center;
+  color: var(--white);
+  font-size: 46px;
+  margin-bottom: 10px;
+}

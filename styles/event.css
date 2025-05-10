@@ -29,7 +29,7 @@ main {
 }
 .electricity-explorers {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.806)),
-    url(../images/electricity.webp);
+    url(../images/electricity-small.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

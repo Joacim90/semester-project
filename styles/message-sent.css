@@ -1,0 +1,44 @@
+main {
+  padding: 0 40px;
+}
+
+h1 {
+  color: var(--clr-secondary);
+  font-family: var(--ff-accent);
+  font-size: 50px;
+}
+h2 {
+  font-family: var(--ff-accent);
+  font-size: 35px;
+}
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+p {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+p:last-child {
+  margin-bottom: 40px;
+}
+@media (min-width: 968px) {
+  h1 {
+    color: var(--clr-secondary);
+    font-family: var(--ff-accent);
+    font-size: 50px;
+  }
+  h2 {
+    font-family: var(--ff-accent);
+    font-size: 35px;
+  }
+  h1,
+  h2 {
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 5px;
+    font-size: 20px;
+  }
+}

@@ -5,7 +5,7 @@ main {
 
 .chemestry-chaos {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.806)),
-    url(/images/Chemistry-4.webp);
+    url(images/Chemistry-4.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
@@ -13,7 +13,7 @@ main {
 
 .dino-world {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.806)),
-    url(/images/Dino-3.webp);
+    url(images/Dino-3.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 40%;
@@ -21,21 +21,21 @@ main {
 
 .rocket-lab {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.806)),
-    url(/images/rockets.webp);
+    url(images/rockets.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 40%;
 }
 .electricity-explorers {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.806)),
-    url(/images/electricity.png);
+    url(images/electricity.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .viritual-tours {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.863)),
-    url(/images/vr.png);
+    url(images/vr.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -43,14 +43,14 @@ main {
 
 .space-day {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.753)),
-    url(/images/astronaut-big.png);
+    url(images/astronaut-big.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .science-lab {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.753)),
-    url(/images/science-lab-big.png);
+    url(images/science-lab-big.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

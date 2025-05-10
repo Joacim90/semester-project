@@ -36,28 +36,28 @@ h1 {
   margin: 0;
 }
 .event-1 {
-  background-image: url(/images/Chemistry.webp);
+  background-image: url(images/Chemistry.webp);
 }
 .event-2 {
-  background-image: url(/images/rockets.webp);
+  background-image: url(images/rockets.webp);
 }
 .event-3 {
-  background-image: url(/images/Dino.webp);
+  background-image: url(images/Dino.webp);
 }
 .event-4 {
-  background-image: url(/images/Electricity.webp);
+  background-image: url(images/Electricity.webp);
 }
 .event-5 {
-  background-image: url(/images/vr.webp);
+  background-image: url(images/vr.webp);
 }
 .event-6 {
-  background-image: url(/images/science-lab.webp);
+  background-image: url(images/science-lab.webp);
 }
 .event-7 {
-  background-image: url(/images/micro.webp);
+  background-image: url(images/micro.webp);
 }
 .event-8 {
-  background-image: url(/images/health.webp);
+  background-image: url(images/health.webp);
 }
 h2 {
   text-align: center;

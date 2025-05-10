@@ -132,7 +132,7 @@ main {
 .hero {
   font-family: var(--ff-base);
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.189)),
-    url(/images/exhibit.webp);
+    url(images/exhibit.webp);
   background-size: cover;
   background-position: center;
   min-height: 300px;
@@ -179,13 +179,13 @@ main {
   margin: 0;
 }
 .activity-1 {
-  background-image: url(/images/science-lab.webp);
+  background-image: url(images/science-lab.webp);
 }
 .activity-2 {
-  background-image: url(/images/micro.webp);
+  background-image: url(images/micro.webp);
 }
 .activity-3 {
-  background-image: url(/images/vr.webp);
+  background-image: url(images/vr.webp);
 }
 .event-btn a {
   display: inline-block;
@@ -207,7 +207,7 @@ main {
 
 /* Featured event start */
 .featured {
-  background-image: url(/images/astronaut.webp);
+  background-image: url(images/astronaut.webp);
   min-height: 450px;
   background-position: center;
   color: var(--clr-primary);

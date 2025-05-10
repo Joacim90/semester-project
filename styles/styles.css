@@ -11,6 +11,7 @@
   --clr-secondary: #ffa600;
   --clr-hover: #ffa600;
   --clr-background: #000000c2;
+  --clr-dark: #000000;
   /* font-weights */
   --fw-regular: 500;
   --fw-bold: 600;
@@ -117,6 +118,7 @@ body {
   background-color: var(--clr-secondary);
   border-radius: 5px;
   padding: 12px 30px;
+  color: var(--clr-dark);
 }
 
 /* Expand menu when checkbox is checked */
@@ -231,7 +233,7 @@ main {
 }
 
 .button {
-  color: var(--clr-primary);
+  color: var(--clr-dark);
   font-size: 19px;
   text-decoration: none;
   background-color: var(--clr-secondary);

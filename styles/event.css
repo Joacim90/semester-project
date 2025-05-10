@@ -29,14 +29,14 @@ main {
 }
 .electricity-explorers {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.806)),
-    url(../images/electricity.png);
+    url(../images/electricity.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .viritual-tours {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.87), rgba(0, 0, 0, 0.863)),
-    url(../images/vr.png);
+    url(../images/vr.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -44,14 +44,14 @@ main {
 
 .space-day {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.753)),
-    url(../images/astronaut-big.png);
+    url(../images/astronaut-big.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .science-lab {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.753)),
-    url(../images/science-lab-big.png);
+    url(../images/science-lab-big.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

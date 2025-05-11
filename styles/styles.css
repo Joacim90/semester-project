@@ -148,7 +148,11 @@ main {
 .activity-heading h2 {
   text-align: center;
   margin-bottom: 10px;
-  font-size: 22px;
+  font-size: 28px;
+}
+
+.activity-heading p {
+  font-size: 20px;
 }
 
 .activities {
@@ -194,6 +198,7 @@ main {
   margin: 0px 20px;
   transition: 0.3s ease-in;
   text-decoration: none;
+  padding: 20px;
 }
 /* Activity end */
 

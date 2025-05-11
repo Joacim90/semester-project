@@ -46,7 +46,6 @@ body {
   max-width: 1920px;
 }
 
-/* Header Row using Flexbox */
 .header-row {
   display: flex;
   align-items: center;
@@ -54,7 +53,6 @@ body {
   padding: 10px 20px;
 }
 
-/* Logo */
 .logo img {
   max-width: 200px;
 }
@@ -66,32 +64,27 @@ body {
   margin-left: 100px;
 }
 
-/* Hide the toggle checkbox */
 .menu-toggle {
   display: none;
 }
 
-/* Navigation Menu Container */
 .menu {
   overflow: hidden;
   transition: max-height 0.5s ease-out;
 }
 
-/* Navigation Menu (hidden by default via max-height) */
 .menu ul {
   list-style-type: none;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease-out;
-  /* Flexbox for vertical stacking with extra gap and centered items */
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers items horizontally */
+  align-items: center;
   gap: 12px;
   padding: 0 20px 10px;
 }
 
-/* Menu Items: Links & Button */
 .menu ul li a,
 .menu ul li .cta {
   display: block;
@@ -101,19 +94,17 @@ body {
   background: none;
   text-align: center;
   cursor: pointer;
-  font-size: 20px; /* Increased font size for mobile */
+  font-size: 20px;
   font-family: var(--ff-base);
   font-weight: var(--ff-base);
   color: var(--clr-primary);
 }
 
-/* Hover States */
 .menu ul li a:hover,
 .menu ul li .cta:hover {
   background-color: var(--clr-hover);
 }
 
-/* Call-to-Action Button Styles */
 .menu ul li a.cta {
   background-color: var(--clr-secondary);
   border-radius: 5px;
@@ -121,9 +112,8 @@ body {
   color: var(--clr-dark);
 }
 
-/* Expand menu when checkbox is checked */
 .menu-toggle:checked ~ .menu ul {
-  max-height: 500px; /* Adjust if you add more items */
+  max-height: 500px;
 }
 
 /* Main-start */
@@ -271,9 +261,7 @@ footer {
 }
 /* Footer end */
 
-/* ========= Larger Screens (Desktop) header and menu ========= */
 @media (min-width: 968px) {
-  /* Arrange header contents horizontally */
   header {
     display: flex;
     align-items: center;
@@ -286,7 +274,6 @@ footer {
     display: none;
   }
 
-  /* Ensure the menu is fully displayed */
   .menu {
     max-height: none;
     overflow: visible;
@@ -302,16 +289,14 @@ footer {
     margin: 0;
   }
 
-  /* Remove extra vertical spacing on desktop; left-align text if desired */
   .menu ul li a,
   .menu ul li button.cta {
     padding: 10px 20px;
     text-align: left;
-    font-size: 24px; /* Optionally a bit smaller font on desktop */
+    font-size: 24px;
     transition: 0.2s ease-in;
   }
 
-  /* Optional hover effect for desktop */
   .menu ul li a:hover,
   .menu ul li button.cta:hover {
     background-color: var(--clr-hover);
